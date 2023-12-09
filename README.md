@@ -19,22 +19,24 @@ You must generate your own SMBIOS for iMessage to work with [GenSMBIOS](https://
 - [x] Ethernet
 - [x] USB 2.0 & 3.0 & 3.1 & Type-C
 
+## What does not work
+* Sleep
+
 ## Gathering Files
+
+### Required
 - [LiLu](https://github.com/acidanthera/Lilu/releases)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
 - [WhateverGreen](https://github.com/acidanthera/WhateverGreen/releases)
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 - [IntelMausi](https://github.com/acidanthera/IntelMausi/releases)
 
-#### Wireless OnBoard (Optional)
+## Optional
 - [Bluetooth](https://github.com/acidanthera/BrcmPatchRAM/releases/tag/2.6.8)
 
 Replace the above kexts in `/EFI/OC/Kexts` to get the latest version
 
-## What does not work
-* Sleep
-
-#### BIOS SETTINGS
+## BIOS SETTINGS
 * Save & Exit → Load Optimized Defaults
 * BIOS → Fast Boot: Disabled
 * BIOS → CSM Support: Disabled
@@ -101,9 +103,7 @@ If you have a different motherboard download [UEFITool](https://github.com/LongS
 5. File → 'Search...' select text and type 'CFG Lock'
 6. It should display: 'Unicode text "CFG Lock" found in PE32 image section at offset XXXXXX'
 
-### Troubleshooting
-
-#### Back side USB Type C port is not working
+## Troubleshooting
 
 1. Reset BIOS Settings
 2. Disable CFG Lock
