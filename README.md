@@ -14,7 +14,6 @@ You must generate your own SMBIOS for iMessage to work with [GenSMBIOS](https://
 ## What works
 - [x] iMessage/Facetime
 - [x] Audio
-- [x] Display Port & HDMI Audio (Needs a small patch, see below)
 - [x] Graphics Intel UHD Graphics 630
 - [x] Ethernet
 - [x] USB 2.0 & 3.0 & 3.1 & Type-C
